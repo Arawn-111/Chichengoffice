@@ -10796,3 +10796,20 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+/* 样式规则 */
+.logo {
+  /* 添加您的样式属性，例如 */
+  width: 160px;
+  height: 100px;
+  margin-right: 20px;
+  font-size: 36px;
+  color: #000; /* 更改颜色为所需颜色值 */
+  /* margin-left: 1px; ？？？*/
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+/* 鼠标悬停或焦点时的样式 */
+.logo:hover, .logo:focus {
+  color: #FF0000; /* 更改鼠标悬停或焦点时的颜色 */
+}
